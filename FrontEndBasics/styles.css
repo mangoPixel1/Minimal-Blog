@@ -1,3 +1,55 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav a:hover {
+    background-color: #F3F3F3;
+}
+
+.nav a:active {
+    background-color: #E9E9E9;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.main-nav a {
+    color: #424242;
+}
+
+.main-title {
+    text-align: center;
+    color: #323232;
+    font-size: 3em;
 }
