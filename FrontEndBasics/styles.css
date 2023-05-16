@@ -9,6 +9,14 @@ html, body {
     padding: 0;
 }
 
+h1, h2, h3 {
+    color: #323232;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
 .nav {
     border-bottom: 1px solid #C9C9C9;
 }
@@ -50,6 +58,33 @@ html, body {
 
 .main-title {
     text-align: center;
-    color: #323232;
     font-size: 3em;
+}
+
+.featured h2, h3 {
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 0;
+}
+
+.featured h3 {
+    margin-top: 0;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.banner p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    /*background-image: url(images/plant.jpg);*/
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/plant.jpg');
+    background-size: cover;
+    background-position: left center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 100px 0;
 }
