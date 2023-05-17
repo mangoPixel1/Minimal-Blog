@@ -75,16 +75,46 @@ header {
     font-weight: 300;
 }
 
+/*
 .banner p {
     text-align: center;
     width: 70%;
     margin: 0 auto;
     color: white;
-    /*background-image: url(images/plant.jpg);*/
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/plant.jpg');
     background-size: cover;
     background-position: left center;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 600;
     padding: 100px 0;
+}
+*/
+
+.banner {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/plant.jpg');
+    background-size: cover;
+    background-position: left center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 100px 0;
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.featured-title a:hover {
+    text-decoration: underline;
 }
