@@ -102,6 +102,8 @@ hr.main-divider {
 
 .featured {
     margin-bottom: 20px;
+    padding: 25px 0;
+    background-color: #e3e3e3;
 }
 
 .featured-title a {
@@ -122,7 +124,7 @@ hr.main-divider {
 }
 
 .featured-item {
-    border: 2px solid black;
+    background-color: #F3F3F3;
     margin: 30px 20px;
     padding: 0 10px;
     min-width: 250px;
@@ -134,9 +136,19 @@ hr.main-divider {
     padding: 15px 30px;
 }
 
+.featured-content a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.featured-content a:hover {
+    color: #6e6e6e;
+}
+
 .featured-content > img {
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
     margin: 0 auto;
 }
+
