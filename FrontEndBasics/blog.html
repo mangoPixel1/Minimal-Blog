@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimal Blog | Home</title>
+    <title>Minimal Blog | Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog.css">
 </head>
 
 <body>
@@ -22,81 +23,58 @@
                 <li><a href="#">ABOUT</a></li>
             </ul>
         </nav>
-        <h1 class="main-title">Minimal Blog</h1>
+        <h1 class="main-title">Blog</h1>
     </header>
     
     <hr class="main-divider"/>
 
     <!-- Center an element and change opacity -->
-    <section class="section-title featured">
-        <h2>Must-Read</h2>
-        <h3 class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-        <div class="banner">
-            <p class="featured-title"><a href="#">Benefits of Indoor Plants</a></p>
-            <p><a href="#">Read More</a></p>
-        </div>
-        <!-- Use Flexbox -->
-        <div class="featured-container">
-            <div class="featured-item featured-item-1">
-                <div class="featured-content">
-                    <h3><a href="#">The Complete Guide to Clean Eating</a></h3>
-                    <img src="images/article-1.jpg" alt="Bowl with vegetables" />
-                    <p>Clean eating is a fad diet based on the belief that consuming whole foods and avoiding convenience food and ...</p>
-                </div>
-            </div>
-            <div class="featured-item featured-item-2">
-                <div class="featured-content">
-                    <h3><a href="#">Why you should Wake up Early to Run</a></h3>
-                    <img src="images/article-2.jpg" alt="Man running" />
-                    <p>Though it goes counter to the preferred doctrine, I tend to thrive on less than eight hours of sleep. I've been a night owl...</p>
-                </div>
-            </div>
-            <div class="featured-item featured-item-3">
-                <div class="featured-content">
-                    <h3><a href="#">Discover the Health Benefits of Mandarins</a></h3>
-                    <img src="images/article-3.jpg" alt="Bowl of peeled mandarins" />
-                    <p>The mandarin orange, also known as mandarin or mandarine, is a small citrus tree fruit. Treated as a distinct...</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     
     <!-- Use CSS Grid -->
-    <section class="section-title recent">
-        <h2>Recent Articles</h2>
-        <h3 class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-        <div class="recent-container">
-            <div class="recent-article">
+    <section class="section-title blog">
+        <div class="blog-container">
+            <div class="post">
                 <h3>Article #1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #4</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #5</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #6</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #7</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
-            <div class="recent-article">
+            <div class="post">
                 <h3>Article #8</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div>
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
+            </div>
+            <div>
+                <h3>Tags</h3>
+                <p>tag 1, tag2, tag3</p>
             </div>
         </div>
     </section>
