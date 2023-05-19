@@ -64,7 +64,7 @@ header {
 hr.main-divider {
     border-top: 4px solid black;
     width: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 0;
 }
 
@@ -101,9 +101,12 @@ hr.main-divider {
 }
 
 .featured {
-    margin-bottom: 20px;
     padding: 25px 0;
     background-color: #e3e3e3;
+}
+
+.featured > h2 {
+    margin: 0;
 }
 
 .featured-title a {
@@ -152,3 +155,23 @@ hr.main-divider {
     margin: 0 auto;
 }
 
+.recent {
+    padding: 30px 45px 30px 45px;
+}
+
+.recent > h2 {
+    margin: 0;
+}
+
+.recent-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid #C9C9C9;
+}
