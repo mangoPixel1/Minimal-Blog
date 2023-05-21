@@ -11,8 +11,36 @@
 
 .post {
     background-color: white;
-    padding: 15px 35px;
+    padding: 35px;
     margin: 50px 0;
+}
+
+.post h3 {
+    margin: 0;
+    font-size: 34px;
+    color: #3d3d3d;
+}
+
+.post-data {
+    margin: 0 0 20px 0;
+    color: #585858;
+}
+
+.post img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.post a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.post a:hover {
+    color: #585858;
 }
 
 .sidebar div {
