@@ -165,9 +165,22 @@ hr.main-divider {
 
 .recent-container {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr;
+    gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+@media (min-width: 40em) {
+    .recent-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 60em) {
+    .recent-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 footer {

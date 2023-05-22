@@ -1,8 +1,14 @@
 .blog {
     display: grid;
-    grid-template-columns: 66% 33%;
+    grid-template-columns: 1fr;
     background-color: #e3e3e3;
     padding: 25px 45px;
+}
+
+@media (min-width: 40em) {
+    .blog {
+        grid-template-columns: 2fr 1fr;
+    }
 }
 
 .blog-container {
@@ -29,7 +35,7 @@
 .post img {
     width: 800px;
     height: 400px;
-    object-fit: cover;
+    object-fit:scale-down;
 }
 
 .post a {
