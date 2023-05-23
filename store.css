@@ -1,7 +1,10 @@
 .store {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    width: 75%;
+    max-width: 900px;
+    margin: 50px auto;
     background-color: #2196F3;
     padding: 10px;
 }
@@ -14,9 +17,16 @@
     text-align: center;
 }
 
+.store-item:nth-of-type(1) {
+    background: slategray;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
 @media (min-width: 40em) {
     .store {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1.5fr 1fr;
     }
 }
 
