@@ -1,0 +1,48 @@
+.title {
+    background-color: #e3e3e3;
+    color:#2a2a2a;
+    text-align: center;
+    padding: 55px 0 65px 0;
+}
+
+.title h1 {
+    color: #292929;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.title > p {
+    margin: 0;
+}
+
+.intro {
+    width: 75%;
+    max-width: 600px;
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+.founding {
+    background-color: hsl(0, 0%, 97%);
+    padding: 60px 0;
+}
+
+.founding-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.founding-inner > img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.founding-text {
+    width: 75%;
+    max-width: 500px;
+}
